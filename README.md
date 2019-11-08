@@ -2,7 +2,7 @@
 
 Re-creation of Sundae page
 
-1. run npm init react-app `app-name`
+1. git clone from this repo ("https://github.com/justiny2c/Sundae-Take-Home")
 2. cd into `app-name` folder
 3. run npm start to run server
 
@@ -15,3 +15,8 @@ Re-creation of Sundae page
 
 1. All styling is done on App.css
 2. Mobile responsive at max-width(900px)
+3. Hover animation and link on button
+
+## Breakthroughs or Blockers
+1. Used Chrome devtools to help styling, and use actual links for images
+2. No real blockers besides styling in a short time (spent ~1 hr)
