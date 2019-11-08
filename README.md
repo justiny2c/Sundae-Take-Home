@@ -17,9 +17,13 @@ Re-creation of Sundae page
 2. Components are in the Components Folder (NavBar, Main)
 3. Mobile responsive at max-width(900px)
 4. Hover animation for button
-5. Button click goes to Sundae's actual link (however, I would change this if in React to go to built-route)
+5. Button click goes to Sundae's actual link
 
-## Breakthroughs or Blockers
+## Breakthroughs/Blockers or What I would Change
 
 1. Used Chrome devtools to help styling, and use actual links for images
 2. No real blockers besides styling in a short time (spent ~1 hr)
+3. With React, I would create Routes (as for the button click) to allow for a faster UI
+4. Also, compress CSS and Javascript code to also reduce load times (the more white space, the longer the load times)
+5. Optimize images on the website (in which I think a lot of them are already)
+6. Lastly, for the Sundae's website in general, I feel some pages have longer scrolled pages. I might look into breaking components/sections up on tab clicks or maybe even different routes
