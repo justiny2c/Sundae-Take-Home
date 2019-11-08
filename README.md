@@ -14,9 +14,12 @@ Re-creation of Sundae page
 ## Styling
 
 1. All styling is done on App.css
-2. Mobile responsive at max-width(900px)
-3. Hover animation and link on button
+2. Components are in the Components Folder (NavBar, Main)
+3. Mobile responsive at max-width(900px)
+4. Hover animation for button
+5. Button click goes to Sundae's actual link (however, I would change this if in React to go to built-route)
 
 ## Breakthroughs or Blockers
+
 1. Used Chrome devtools to help styling, and use actual links for images
 2. No real blockers besides styling in a short time (spent ~1 hr)
