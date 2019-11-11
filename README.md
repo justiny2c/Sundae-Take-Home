@@ -19,6 +19,8 @@ Re-creation of Sundae page
 4. Hover animation for button
 5. Button click goes to Sundae's actual link
 
+![screenshot](sundae-take-home/screenshot.png)
+
 ## Breakthroughs/Blockers or What I would Change
 
 1. Used Chrome devtools to help styling, and use actual links for images
