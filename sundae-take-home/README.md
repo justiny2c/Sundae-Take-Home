@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sundae-Take-Home
 
-## Available Scripts
+Re-creation of Sundae page
 
-In the project directory, you can run:
+1. git clone from this repo ("https://github.com/justiny2c/Sundae-Take-Home")
+2. cd into `app-name` folder
+3. run npm start to run server
 
-### `yarn start`
+## Framework
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. React is the only framework used for the project
+2. If more styling is needed, I would use Material UI components
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Styling
 
-### `yarn test`
+1. All styling is done on App.css
+2. Components are in the Components Folder (NavBar, Main)
+3. Mobile responsive at max-width(900px)
+4. Hover animation for button
+5. Button click goes to Sundae's actual link
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screenshot](screenshot.png)
 
-### `yarn build`
+## Breakthroughs/Blockers or What I would Change
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Used Chrome devtools to help styling, and use actual links for images
+2. No real blockers besides styling in a short time (spent ~1 hr)
+3. With React, I would create Routes (as for the button click) to allow for a faster UI
+4. Also, compress CSS and Javascript code to also reduce load times (the more white space, the longer the load times)
+5. Optimize images on the website (in which I think a lot of them are already)
+6. Lastly, for the Sundae's website in general, I feel some pages have longer scrolled pages. I might look into breaking components/sections up on tab clicks or maybe even different routes
